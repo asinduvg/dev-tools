@@ -1,0 +1,110 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Developer Command Prompt For VS (x64)": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [
+        "/K",
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\VsDevCmd.bat"
+      ],
+      "icon": "code"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.automationShell.windows": "",
+  "terminal.integrated.shell.linux": "zsh",
+  "terminal.integrated.env.windows": {
+    "PATH": "${env:PATH}"
+  },
+  "terminal.integrated.fontFamily": "fira code",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Jetbrains Fleet",
+  "files.autoSave": "onFocusChange",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "todohighlight.defaultStyle": {
+    "backgroundColor": "yellow"
+  },
+  "todohighlight.keywords": [],
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.fontLigatures": true,
+  "code-runner.runInTerminal": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.renderSideBySide": false,
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "quarkus.tools.alwaysShowWelcomePage": false,
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "python.languageServer": "Pylance",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "sync.gist": "a8115e901db0fc03dd2ae8c0ef3ed6ef",
+  "sync.autoUpload": true,
+  "tabnine.experimentalAutoImports": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "redhat.telemetry.enabled": false,
+  "jupyter.jupyterServerType": "local",
+  "notebook.lineNumbers": "on",
+  "editor.fontFamily": "fira code",
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "remote.SSH.remotePlatform": {
+    "asinduvg-natsuki-86ihzivgayc.vss.gitpod.io": "linux",
+    "asinduvg-natsuki-7pzvsjljmku.vss.gitpod.io": "linux"
+  },
+  "C_Cpp.default.compilerPath": "",
+  "C_Cpp.default.cppStandard": "c++11",
+  "C_Cpp.default.intelliSenseMode": "windows-clang-x64",
+  "C_Cpp.default.systemIncludePath": [
+    "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\include",
+    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\*"
+  ],
+  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.enabled": true,
+  "C_Cpp.doxygen.generatedStyle": "/*!"
+}
